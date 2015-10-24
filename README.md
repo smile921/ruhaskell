@@ -146,3 +146,9 @@ rejecting: base-4.8.1.0, 4.8.0.0, 4.7.0.2, 4.7.0.1, 4.7.0.0, 4.6.0.1, 4.6.0.0,
 4.2.0.0, 4.1.0.0, 4.0.0.0, 3.0.3.2, 3.0.3.1 (global constraint requires
 installed instance)
 Dependency tree exhaustively searched.
+
+
+
+
+
+Note: if you are using cabal-install to install stack, you may need to pass a constraint to work around a Cabal issue: cabal install --constraint 'mono-traversable >= 0.9' stack.
