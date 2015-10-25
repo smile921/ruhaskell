@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>RSS Feed</title>
+        <title>Бананы и Линзы</title>
         <link>http://ruhaskell.org/categories/cast.html</link>
         <language>ru-ru</language>
-        <copyright>2014 - 2015 俄语ruHaskell Haskell开发者社区</copyright>
-        <itunes:subtitle>关于中文 Haskell 播客</itunes:subtitle>
+        <copyright>2014 - 2015 Русскоязычное сообщество Haskell-разработчиков ruHaskell</copyright>
+        <itunes:subtitle>Русскоязычный подкаст о Haskell</itunes:subtitle>
         <itunes:author>ruHaskell</itunes:author>
-        <itunes:summary>关于Haskell的一切</itunes:summary>
-        <description>关于英语和中文播客的编程Haskell他周围的一切。在关于技术方面的有关工具，语言，以及图书馆的现状，Haskell在商业和教育。ruHaskell播客社区生成的力量.</description>
+        <itunes:summary>Русскоязычный подкаст о языке программирования Haskell и обо всём вокруг него.</itunes:summary>
+        <description>Русскоязычный подкаст о языке программирования Haskell и обо всём вокруг него. Беседуем о технических аспектах языка, об инструментах, библиотеках, а также о текущем положении Haskell в бизнесе и образовании. Подкаст создаётся силами сообщества ruHaskell.</description>
         <itunes:owner>
-            <itunes:name>丹尼斯·舍甫琴柯</itunes:name>
+            <itunes:name>Денис Шевченко</itunes:name>
             <itunes:email>me@dshevchenko.biz</itunes:email>
         </itunes:owner>
         <itunes:image href="http://dshevchenko.biz/ruhaskell/cast/image.png" />
