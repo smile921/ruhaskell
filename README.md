@@ -130,3 +130,25 @@ $ ./watch.sh
 ### Обратная связь
 
 Вопросы? Предложения? Критика? Вы можете задать их в нашем [чате](https://gitter.im/ruHaskell/forall), на [форуме](http://forum.ruhaskell.org), в [группе на Google+](https://plus.google.com/communities/117343381540538069054) или же написать [Денису Шевченко](mailto:me@dshevchenko.biz).
+
+
+cabal install "stack<0.1.1"
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+next goal: stack (user goal)
+rejecting: stack-0.1.6.0, 0.1.5.0, 0.1.4.1, 0.1.4.0, 0.1.3.1, 0.1.3.0,
+0.1.2.0, 0.1.1.0 (global constraint requires <0.1.1)
+trying: stack-0.1.0.0
+next goal: base (dependency of stack-0.1.0.0)
+rejecting: base-4.6.0.1/installed-8aa... (conflict: stack => base>=4.7 && <5)
+rejecting: base-4.8.1.0, 4.8.0.0, 4.7.0.2, 4.7.0.1, 4.7.0.0, 4.6.0.1, 4.6.0.0,
+4.5.1.0, 4.5.0.0, 4.4.1.0, 4.4.0.0, 4.3.1.0, 4.3.0.0, 4.2.0.2, 4.2.0.1,
+4.2.0.0, 4.1.0.0, 4.0.0.0, 3.0.3.2, 3.0.3.1 (global constraint requires
+installed instance)
+Dependency tree exhaustively searched.
+
+
+
+
+
+Note: if you are using cabal-install to install stack, you may need to pass a constraint to work around a Cabal issue: cabal install --constraint 'mono-traversable >= 0.9' stack.
