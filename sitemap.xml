@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
+        <loc>http://ruhaskell.org/posts/events/2015/10/22/%E8%81%8C%E4%B8%9A%E5%BE%B7%E5%B7%9E%E6%89%91%E5%85%8B%E6%89%8B%E7%9C%8B%E4%BA%A4%E6%98%93--%E9%A3%8E%E9%99%A9%E7%9A%84%E4%B8%89%E4%B8%AA%E5%B1%82%E6%AC%A1.html</loc>
+    </url>
+
+    <url>
         <loc>http://ruhaskell.org/posts/packages/2015/10/21/HaskellLuaHowTo.html</loc>
     </url>
 
